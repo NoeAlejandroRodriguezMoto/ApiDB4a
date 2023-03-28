@@ -9,3 +9,8 @@ RUN ./mvnw dependency:resolve
 COPY src ./src
 # RUN mvnm clean install
 CMD ["./mvnw", "spring-boot:run"]
+
+
+Permission denied , resolved
+chmod 777 mvnw
+
