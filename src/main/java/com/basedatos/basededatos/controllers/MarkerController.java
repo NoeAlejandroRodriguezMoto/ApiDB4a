@@ -20,6 +20,8 @@ public class MarkerController {
         return markerService.getAll();
     }
 
+
+
     @GetMapping(value = "/getId/{id}")
     MakerModel getById(@PathVariable("id") long id ){
         return markerService.get(id);
