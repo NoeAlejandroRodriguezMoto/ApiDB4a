@@ -11,6 +11,5 @@ COPY src ./src
 CMD ["./mvnw", "spring-boot:run"]
 
 
-Permission denied , resolved
-chmod 777 mvnw
+
 
