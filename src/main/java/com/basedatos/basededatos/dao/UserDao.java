@@ -1,7 +1,9 @@
 package com.basedatos.basededatos.dao;
 import com.basedatos.basededatos.models.UserModel;
-import java.util.List;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+import java.util.List;
+@CrossOrigin
 public interface UserDao {
 
       List<UserModel> getAll();
